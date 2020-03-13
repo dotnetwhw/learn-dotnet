@@ -1,10 +1,5 @@
 pipeline {
-    agent {
-        docker  {
-            image 'mcr.microsoft.com/dotnet/core/sdk'
-            label '3.1.102-buster'
-        }
-    }
+    agent { docker 'mcr.microsoft.com/dotnet/core/sdk:3.1' }
     stages {
         stage('build') {
             steps {
