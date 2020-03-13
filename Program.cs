@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json.Linq;
 
-namespace dotnetcore_projects
+namespace learn_dotnet
 {
     internal static class Program
     {

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>dotnetcore_projects</RootNamespace>
+    <RootNamespace>learn_dotnet</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
