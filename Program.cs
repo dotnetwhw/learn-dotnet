@@ -1,5 +1,6 @@
 ﻿using System;
 using Newtonsoft.Json.Linq;
+using System.Numerics;
 
 namespace learn_dotnet
 {
@@ -16,6 +17,10 @@ namespace learn_dotnet
             var json = o.ToString();
             
             Console.WriteLine(json);
+            
+            BigInteger aa = new BigInteger();
+            
+            MachineLearningProgram.Internal_Main(args);
         }
     }
 }
